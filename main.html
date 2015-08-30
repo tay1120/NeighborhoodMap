@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Asynchronous Loading</title>
+    <title>NEIGHBORHOOD MAP</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <style>
-      html, body, #map-canvas {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
-    </style>
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbCXLj3v6Z41i97C54y9w_CLuAYN8Pz0A">
-    </script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+    <script src="js/knockout-3.3.0.js"></script>
     <script src="js/map.js"></script>
+
   </head>
-  <body>
+  <body
+    <div id="search-bar">
+        <form id="search-form">
+            <input id="search" type="text" spellcheck="false" placeholder="Search Bank Locations" autocomplete="off">
+            <button id="search-submit" type="submit"><span>SEARCH</span></button>
+        </form>
+
+    </div>
     <div id="map-canvas"></div>
+
   </body>
 </html>
