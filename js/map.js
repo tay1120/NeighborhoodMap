@@ -1,3 +1,30 @@
+var bank = [
+  {
+  "name" : "Capital One Bank",
+  "location" : "10700 Capitol One Way, Glen Allen, VA 23060"
+  },
+  {
+  "name" : "Wells Fargo Bank",
+  "location" : "11290 Nuckols Road, Glen Allen, VA 23060"
+  },
+  {
+  "name" : "SunTrust Bank",
+  "location" : "10170 Brook Road, Glen Allen, VA 23059"
+  },
+  {
+  "name" : "Bank Of America",
+  "location" : "3901 Stillman Parkway, Glen Allen, VA 23060"
+  },
+  {
+  "name" : "BB&T",
+  "location" : "10000 West Broad Street, Glen Allen, VA 23060"
+  },
+  {
+  "name" : "Union First Market Bank",
+  "location" : "10250 Staples Mill Road, Glen Allen, VA 23060"
+  },
+]
+
 var map;
 function initialize() {
 
