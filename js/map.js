@@ -41,6 +41,7 @@ function mapPoint(name, type, lat, long, show, venueId) {
     self.marker.setAnimation(google.maps.Animation.BOUNCE);
     setTimeout(function(){self.marker.setAnimation(null);}, 1400);
     getInfoWindowContent(self.marker);
+    map.setCenter(self.latLng);
   };
 
   google.maps.event.addListener(self.marker, 'click', self.openInfoWindow);
