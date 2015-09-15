@@ -96,7 +96,7 @@ function myViewModel() {
   //Defined locations and information via Map Point array//
   self.mapPoints = ko.observableArray([
         new mapPoint('Short Pump Town Center', 'Mall', 37.6562031,-77.6195394, true, '4adb637df964a520d52621e3'),
-        new mapPoint('Tropical Smoothie Cafe', 'Restaurant', 37.641403,-77.6441381, true,'4b9fcefff964a5209f4037e3'),
+        new mapPoint('Tropical Smoothie Cafe', 'Restaurant', 37.6526939,-77.6146111, true,'4b9fcefff964a5209f4037e3'),
         new mapPoint('Genghis Grill', 'Restaurant', 37.6537995,-77.623402, true, '503ba374e4b0c6f1942322d9'),
         new mapPoint('Bar Louie', 'Bar', 37.6548786,-77.6229067, true , '4adc9493f964a520842d21e3'),
         new mapPoint('Richmond Funny Bone Comedy Club & Restaurant', 'Bar', 37.6569158, -77.6197992, true, '4b5baac5f964a520c60e29e3'),
