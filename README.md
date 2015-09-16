@@ -1,5 +1,38 @@
 NEIGHBORHOOD MAP - PROJECT 5
 
+Steps to run application:
+
+Open the main.html file in your internet browser to view the web page. You are able to filter the list by using the search bar, click on locations on the list to view on the map, and click on the map markers to view additional information pulled from Foursquare API.
+
+ 
+
+Resources:
+
+https://www.udacity.com/course/viewer#!/c-ud989/l-3417188540/m-3374098584
+https://www.udacity.com/course/viewer#!/c-ud989/l-3437288625/m-3427998730
+https://www.udacity.com/course/viewer#!/c-ud989/l-3406489055/m-3464818680
+https://www.udacity.com/course/viewer#!/c-ud989/l-3525509902/m-3574768555
+https://developers.google.com/maps/
+https://developers.google.com/maps/documentation/javascript/
+https://developers.google.com/maps/documentation/javascript/tutorial
+https://developers.google.com/maps/documentation/javascript/infowindows
+https://developers.google.com/maps/documentation/javascript/markers
+https://developers.google.com/maps/documentation/javascript/3.exp/reference
+https://www.udacity.com/course/viewer#!/c-ud110-nd/l-3174548544/m-3159128570
+https://www.udacity.com/course/viewer#!/c-ud110-nd/l-3310298553/m-3180658598
+http://api.jquery.com/jquery.ajax/
+http://api.jquery.com/jquery.getjson/
+http://api.jquery.com/val/
+http://api.jquery.com/error/
+https://developer.foursquare.com/start
+https://developer.foursquare.com/docs/venues/search
+http://startbootstrap.com/template-overviews/simple-sidebar/
+https://discussions.udacity.com/t/getting-foursquare-data/20389
+https://discussions.udacity.com/t/connecting-functionality-for-list-vs-markers/20016
+https://discussions.udacity.com/t/unable-to-resolve-issue-with-viewing-my-map-using-bootstrap/25090
+https://discussions.udacity.com/t/project-example/4399
+
+
 
 Project 5 Neighborhood Map Example
 
