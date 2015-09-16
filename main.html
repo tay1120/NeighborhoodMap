@@ -1,24 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>NEIGHBORHOOD MAP</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-
-    <script src="js/knockout-3.3.0.js"></script>
-    <script src="js/map.js"></script>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>NEIGHBORHOOD MAP PROJECT</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbCXLj3v6Z41i97C54y9w_CLuAYN8Pz0A">
+    </script>
 
   </head>
-  <body
-    <div id="search-bar">
-        <form id="search-form">
-            <input id="search" type="text" spellcheck="false" placeholder="Search Bank Locations" autocomplete="off">
-            <button id="search-submit" type="submit"><span>SEARCH</span></button>
-        </form>
-
-    </div>
-    <div id="map-canvas"></div>
-
+    <body>
+        <h1>DOWNTOWN SHORT PUMP ATTRACTIONS - Glen Allen, Virginia</h1>
+        <div id="wrapper" class>
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <!-- Filter Field -->
+                <form>
+                    <input id="search" data-bind="value: filterText, valueUpdate: 'afterkeydown'" placeholder="Search Short Pump Attractions" autocomplete="off" />
+                </form>
+            <div class="list-view">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong>ATTRACTIONS ( A-Z )</strong>
+                    </div>
+                    <ul class="list-group" role="menu">
+                        <div data-bind="foreach: mapPoints">
+                            <li class="list-group-item" data-bind="
+                                text:name,
+                                visible:show,
+                                click: $parent.listClick.bind($data)">
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+            </div>
+        </div>
+        </div>
+        <div id="map-canvas"></div>
+    <script src="js/knockout-3.3.0.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/map.js"></script>
   </body>
 </html>
