@@ -16,6 +16,10 @@ form {
     display: inline-block;
 }
 
+.infoWindow {
+    maxWidth: 50px;
+}
+
 #map-canvas {
   height: 100%;
   z-index: 1;
@@ -226,5 +230,4 @@ form {
   overflow-y:hidden;
   overflow-x:hidden;
   }
-
 }
