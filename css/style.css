@@ -3,15 +3,11 @@ html {
 }
 
 body {
-  height: 89%;
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: fantasy; font-size: 20px;
   background-color: #ccc;
-}
-
-h1 {
-  margin-left: 250px;
 }
 
 form {
@@ -27,7 +23,6 @@ form {
 
 #panel {
   position: absolute;
-  top: 5px;
   left: 50%;
   margin-left: -180px;
   z-index: 5;
@@ -38,9 +33,8 @@ form {
 
 #search {
   position: absolute;
-  top: 35px;
+  top: 5px;
   width: 225px;
-  left: 10px;
   z-index: 99;
   margin: 5px;
   padding: 5px;
@@ -53,8 +47,8 @@ form {
   width: 233px;
   padding: 10px;
   border-radius: 25px;
-  top: 60px;
-  left: 5px;
+  top: 35px;
+  left: -4px;
   z-index: 99;
   margin: 5px;
   padding: 5px;
@@ -97,7 +91,7 @@ form {
     position: fixed;
     left: 250px;
     width: 250px;
-    height: 92%;
+    height: 100%;
     margin-left: -250px;
     overflow-y: auto;
     -webkit-transition: all 0.5s ease;
@@ -171,3 +165,66 @@ form {
         position: absolute;
         z-index: 5;
     }
+}
+
+    /* Smartphones (portrait) */
+@media(max-width: 375px) {
+  body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: fantasy; font-size: 10px;
+  background-color: #ccc;
+}
+  #wrapper {
+        padding-left: 117px;
+    }
+
+    #sidebar-wrapper {
+        width: 117px;
+    }
+
+    #page-content-wrapper {
+        padding: 4px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .sidebar-nav > .sidebar-brand {
+    height: 30px;
+    font-size: 6px;
+    line-height: 28px;
+  }
+
+  form {
+    font-size: 7.75px;
+    font-family: Serif;
+    display: inline-block;
+  }
+
+  #search {
+  position: absolute;
+  top: 1px;
+  width: 106px;
+  left: -3px;
+  z-index: 99;
+  margin: 5px;
+  padding: 5px;
+  border: 1px;
+  border-radius: 25px;
+  }
+
+  .list-view {
+  position: absolute;
+  width: 115px;
+  padding: 1px;
+  border-radius: 25px;
+  top: 25px;
+  z-index: 99;
+  margin: 1px;
+  padding: 1px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+}
