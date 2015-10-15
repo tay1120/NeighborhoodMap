@@ -13,6 +13,7 @@ if (typeof google != ('object')) {
 //Add Info Window to map//
 var infoWindow = new google.maps.InfoWindow({
   content: "contentString",
+  maxWidth: 100
 });
 
 
